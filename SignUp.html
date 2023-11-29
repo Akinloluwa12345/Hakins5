@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="SignUp.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css" />
+    <title>Trial/SignUp</title>
+  </head>
+  <body>
+    <div id="showcase">
+      <header class="header">
+        <a id="#banner" class="logo">HAKINS</a>
+        <nav class="nav-stuffs">
+          <a href="SignUp.html">Home</a>
+          <a href="FAQ.html">FAQ</a>
+          <a href="about-us.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="#sign-up" id="nav-sign-up" class="sign-up-btn">Sign Up</a>
+        </nav>
+      </header>
+    </div>
+
+    <main class="main">
+      <div class="intro">
+        <h1>HAKINS</h1>
+        <p>Where Mistakes Are Not Chanstised</p>
+        <!-- <button>Learn More</button> -->
+        <button id="sign-up" class="sign-up-btn">Sign Up Now!</button>
+      </div>
+
+      <div class="special">
+        <div class="entires">
+          <div class="feature_card_icon-1">
+            <i class="fa-solid fa-diagram-project fa-flip"></i>
+          </div>
+          <p class="entries-heading">Projects</p>
+        </div>
+
+        <div class="entires">
+          <div class="feature_card_icon-1">
+            <i class="fa-solid fa-laptop-code fa-beat"></i>
+          </div>
+          <p class="entries-heading">Skills</p>
+        </div>
+
+        <div class="entires">
+          <div class="feature_card_icon-1">
+            <i class="fa-solid fa-globe fa-spin fa-spin-reverse"></i>
+          </div>
+          <p class="entries-heading">Network</p>
+        </div>
+      </div>
+    </main>
+
+    <section class="container hidden">
+      <div class="signup">
+        <form action="#" class="form">
+          <legend>Sign Up</legend>
+          <input type="text" id="fname" placeholder="First Name" required />
+          <input
+            type="text"
+            id="lname"
+            placeholder="Last Name"
+            required
+          /><br /><br />
+          <select name="gender" id="gender" required>
+            <option>Gender</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other</option>
+          </select>
+
+          <input
+            type="email"
+            id="email"
+            placeholder="@ Email address"
+            required
+          /><br /><br />
+          <input type="password" id="psw" placeholder="Password" required />
+          <input
+            type="password"
+            id="psw-repeat"
+            placeholder="Re-type Password"
+            required
+          /><br /><br />
+          <input type="text" id="ref-code" placeholder="Referral Code" />
+          <br /><br />
+          <button type="submit" id="sign-up">Signup</button>
+
+          <button id="login">Login</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="copy">Hakins Ajiboso Co. Akin- Copyright 2023©</div>
+      <div class="links">
+        <span>Social Links</span>
+        <div class="properlinks">
+          <div class="feature_card_icon">
+            <i class="whatsapp fab fa-whatsapp"></i>
+          </div>
+          <br />
+          <div class="feature_card_icon">
+            <i class="twitter fab fa-twitter"></i>
+          </div>
+          <br />
+          <div class="feature_card_icon">
+            <i class="instagram fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script defer src="signup.js"></script>
+  </body>
+</html>

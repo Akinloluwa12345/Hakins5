@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="SignUp.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css" />
+  </head>
+  <body>
+    <div id="showcase">
+      <header class="header">
+        <a id="#banner" class="logo">HAKINS</a>
+        <nav class="nav-stuffs">
+          <a href="SignUp.html">Home</a>
+          <a href="FAQ.html">FAQ</a>
+          <a href="about-us.html">About Us</a>
+          <a href="#contact.html">Contact</a>
+          <a href="#sign-up" id="nav-sign-up" class="sign-up-btn">Sign Up</a>
+        </nav>
+      </header>
+    </div>
+    <div class="contactUs">
+      <div class="contact-1">
+        <div class="proper">
+          <h1>CONTACT</h1>
+          <div class="line2"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut enim
+            tempore odit temporibus sit. Voluptas praesentium officia dolores,
+            corrupti nemo totam soluta et veniam fugiat consequatur nostrum rem
+            quisquam quidem?Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Tempora sed alias perspiciatis necessitatibus debitis
+            exercitationem dolor dignissimos veniam aliquid eum numquam, ipsam
+            unde ullam vel cum excepturi nemo ducimus magni.
+          </p>
+          <h5 class="email22">
+            <strong>Email:</strong> <em>info@hakins1031.com</em>
+          </h5>
+          <h5 class="office">
+            Hakins office: <em>1908 Trimarron Way, Fl 34109</em>
+          </h5>
+        </div>
+      </div>
+
+      <div class="question">
+        <h2>What You Get When Asking Your Question</h2>
+        <ul class="real-list">
+          <li>Less than 12-hour response to your question</li>
+          <br />
+          <li>Thoroughness and expertise of a Certified Specialist</li>
+          <br />
+          <li>Plan of action summarised in an email follow up</li>
+        </ul>
+      </div>
+
+      <div class="formy">
+        <form action="">
+          <label for="fname">First Name</label><br />
+          <input type="text" id="fname" />
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" /><br /><br />
+
+          <label for="email">Email Address</label><br />
+          <input type="email" id="email" />
+
+          <label for="telephone">Phone Number</label>
+          <input
+            type="tel"
+            size="10"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            placeholder="912-330-1456"
+            id="telephone"
+            required
+          />
+          <br /><br />
+          <!-- How may we help you? -->
+          <textarea name="textbox" id="textbox" cols="30" rows="10">
+Help me understand how I can help you?</textarea
+          ><br /><br />
+          <input type="checkbox" id="check" />
+          <label for="check">Sign Up for Hakins</label><br />
+          <button class="send">Send</button>
+        </form>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+          aliquam aut a eos in doloribus quidem dignissimos. Maxime officiis
+          assumenda omnis incidunt, excepturi unde culpa aut nulla sint tempora
+          pariatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Amet tempore corrupti vel sit neque voluptates id dignissimos sed,
+          repellat mollitia odio possimus quaerat necessitatibus quas earum
+          reprehenderit autem odit quisquam.
+        </p>
+      </div>
+
+      <div class="ask">
+        <div class="askProper">Ask a Question Here</div>
+      </div>
+    </div>
+
+    <section class="container hidden">
+      <div class="signup">
+        <form action="#" class="form">
+          <legend>Sign Up</legend>
+          <input type="text" id="fname" placeholder="First Name" required />
+          <input
+            type="text"
+            id="lname"
+            placeholder="Last Name"
+            required
+          /><br /><br />
+          <select name="gender" id="gender" required>
+            <option>Gender</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other</option>
+          </select>
+
+          <input
+            type="email"
+            id="email"
+            placeholder="@ Email address"
+            required
+          /><br /><br />
+          <input type="password" id="psw" placeholder="Password" required />
+          <input
+            type="password"
+            id="psw-repeat"
+            placeholder="Re-type Password"
+            required
+          /><br /><br />
+          <input type="text" id="ref-code" placeholder="Referral Code" />
+          <br /><br />
+          <button type="submit" id="sign-up">Signup</button>
+
+          <button id="login">Login</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="copy">Hakins Ajiboso Co. Akin- Copyright 2023©</div>
+      <div class="links">
+        <span>Social Links</span>
+        <div class="properlinks">
+          <div class="feature_card_icon">
+            <i class="whatsapp fab fa-whatsapp"></i>
+          </div>
+          <br />
+          <div class="feature_card_icon">
+            <i class="twitter fab fa-twitter"></i>
+          </div>
+          <br />
+          <div class="feature_card_icon">
+            <i class="instagram fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script defer src="signup.js"></script>
+  </body>
+</html>
